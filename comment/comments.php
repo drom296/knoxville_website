@@ -1,22 +1,33 @@
-<?php echo '<?xml version="1.0" encoding="utf-8"?>' ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php include_once("doctype.html"); ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>dbPut</title>
-	
+	<title>Welcome to Knoxville</title>
+	<link type="text/css" rel="stylesheet" href="css/nav.css" />
+	<link type="text/css" rel="stylesheet" href="css/knox_nav.css" />
+	<link type="text/css" rel="stylesheet" href="css/knox.css" />
+	<link type="text/css" rel="stylesheet" href="css/knox_color.css" />
 </head>
 <body>
-	<div id="singleComment">
-<!-- 		<a id="addCommentLink" href="#">Add a Comment</a> -->
-		<?php include_once("single_comment.php"); ?> 
+<div id="page">
+	<?php include_once("banner2.html"); ?>
+	
+	<?php include_once("nav2.html"); ?>
+	
+	<div id="content">
+		<div id="allComments">
+			<?php include("all_comments.php"); ?>
+		</div>
+		
+		<div id="singleComment">
+	<!-- 		<a id="addCommentLink" href="#">Add a Comment</a> -->
+			<?php include_once("single_comment.php"); ?> 
+		</div>		
 	</div>
 	
-
-	<div id="allComments">
-		<?php include_once("all_comments.php"); ?>
-	</div>
-	
+	<?php include_once("footer2.html"); ?>
+</div>
 </body>
 </html>
+
+
