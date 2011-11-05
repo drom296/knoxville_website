@@ -35,7 +35,7 @@
 	
 		<h2 class="hr">Daytime</h2>
 		
-		<div id="funSmoky" class="bubble noFloat" onClick="location.href='day_fun.php#funSmoky'">
+		<div id="funSmoky" class="bubble noFloat" onclick="location.href='day_fun.php#funSmoky'">
 			<img class="bubblePic" src="images/smoky_mountains_small.jpg" alt="Smoky Mountains" />
 			
 			<h2 class="bubbleHeader">The Great Smoky Mountains</h2>
@@ -51,7 +51,7 @@
 			<div class="noFloat"></div>
 		</div>
 		
-		<div id="funGatlinburg" class="bubble noFloat" onClick="location.href='day_fun.php#funGatlinburg'">
+		<div id="funGatlinburg" class="bubble noFloat" onclick="location.href='day_fun.php#funGatlinburg'">
 			<img class="bubblePic" src="images/gatlinburg_night_small" alt="Gatlinburg" />
 			
 			<h2 class="bubbleHeader">Gatlinburg</h2>
@@ -65,7 +65,7 @@
 			<div class="noFloat"></div>
 		</div>
 		
-		<div id="funRipley" class="bubble noFloat" onClick="location.href='day_fun.php#funRipley'">
+		<div id="funRipley" class="bubble noFloat" onclick="location.href='day_fun.php#funRipley'">
 			<img class="bubblePic" src="images/ripleys_small.jpg" alt="Ripley's Aquarium" />
 			
 			<h2 class="bubbleHeader">Ripley's Aquarium of The Smokies</h2>
@@ -81,7 +81,7 @@
 			<div class="noFloat"></div>
 		</div>
 		
-		<div id="funMotor" class="bubble noFloat" onClick="location.href='day_fun.php#funMotor'">
+		<div id="funMotor" class="bubble noFloat" onclick="location.href='day_fun.php#funMotor'">
 			<img class="bubblePic" src="images/motorcycle_small.jpg" alt="Motorcycle" />
 			
 			<h2 class="bubbleHeader">Motorcycle Trips</h2>
@@ -99,7 +99,7 @@
 		
 		<h2 class="hr">Night Life</h2>
 		
-		<div id="funCEJ" class="bubble noFloat" onClick="location.href='night_fun.php#funCEJ'">
+		<div id="funCEJ" class="bubble noFloat" onclick="location.href='night_fun.php#funCEJ'">
 			<img class="bubblePic" src="images/cej_small.jpg" alt="Cotton Eyed Joe's" />
 			
 			<h2 class="bubbleHeader">Cotton Eyed Joe's</h2>
@@ -115,7 +115,7 @@
 			<div class="noFloat"></div>
 		</div>
 		
-		<div id="funOld" class="bubble noFloat" onClick="location.href='night_fun.php#funOld'">
+		<div id="funOld" class="bubble noFloat" onclick="location.href='night_fun.php#funOld'">
 			<img class="bubblePic" src="images/old_city_small.jpg" alt="Old City" />
 			
 			<h2 class="bubbleHeader">Old City</h2>
@@ -129,7 +129,7 @@
 			<div class="noFloat"></div>
 		</div>
 		
-		<div id="funSalsa" class="bubble noFloat" onClick="location.href='night_fun.php#funSalsa'">
+		<div id="funSalsa" class="bubble noFloat" onclick="location.href='night_fun.php#funSalsa'">
 			<img class="bubblePic" src="images/salsaknox_small.jpg" alt="SalsaKnox" />
 			
 			<h2 class="bubbleHeader">SalsaKnox</h2>

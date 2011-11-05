@@ -33,7 +33,7 @@
 		<h1>Cuisine</h1>
 		<h2 class="hr">BBQ</h2>
 		
-		<div id="foodDave" class="bubble noFloat" onClick="location.href='bbq.php#foodDave'">
+		<div id="foodDave" class="bubble noFloat" onclick="location.href='bbq.php#foodDave'">
 			<img class="bubblePic" src="images/famous_daves_small.jpg" alt="" />
 			
 			<h2 class="bubbleHeader">Famous Dave's</h2>
@@ -47,7 +47,7 @@
 			<div class="noFloat"></div>
 		</div>
 		
-		<div id="foodDead" class="bubble noFloat" onClick="location.href='bbq.php#foodDead'">
+		<div id="foodDead" class="bubble noFloat" onclick="location.href='bbq.php#foodDead'">
 			<img class="bubblePic" src="images/dead_end_bbq_small.jpg" alt="" />
 			
 			<h2 class="bubbleHeader">Dead End BBQ</h2>
@@ -62,7 +62,7 @@
 			<div class="noFloat"></div>
 		</div>
 		
-		<div id="foodCalhoun" class="bubble noFloat" onClick="location.href='bbq.php#foodCalhoun'">
+		<div id="foodCalhoun" class="bubble noFloat" onclick="location.href='bbq.php#foodCalhoun'">
 			<img class="bubblePic" src="images/calhouns.jpg" alt="" />
 			
 			<h2 class="bubbleHeader">Calhoun's</h2>
@@ -77,7 +77,7 @@
 		
 		<h2 class="hr">Everything Else</h2>
 		
-		<div id="foodSonic" class="bubble noFloat" onClick="location.href='misc.php#foodSonic'">
+		<div id="foodSonic" class="bubble noFloat" onclick="location.href='misc.php#foodSonic'">
 			<img class="bubblePic" src="images/sonic_small.jpg" alt="" />
 			
 			<h2 class="bubbleHeader">Sonic Drive-In</h2>
@@ -94,7 +94,7 @@
 			<div class="noFloat"></div>
 		</div>
 		
-		<div id="foodCici" class="bubble noFloat" onClick="location.href='misc.php#foodCici'">
+		<div id="foodCici" class="bubble noFloat" onclick="location.href='misc.php#foodCici'">
 			<img class="bubblePic" src="images/cicis_pizza_small.jpg" alt="" />
 			
 			<h2 class="bubbleHeader">Cici's Pizza</h2>
@@ -110,7 +110,7 @@
 			<div class="noFloat"></div>
 		</div>
 		
-		<div id="foodShoney" class="bubble noFloat" onClick="location.href='misc.php#foodShoney'">
+		<div id="foodShoney" class="bubble noFloat" onclick="location.href='misc.php#foodShoney'">
 			<img class="bubblePic" src="images/shoneys_bear_small.jpg" alt="" />
 			
 			<h2 class="bubbleHeader">Shoney's Family Restaurant</h2>
