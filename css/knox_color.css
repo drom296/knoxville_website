@@ -26,7 +26,7 @@ div.bubbleInfo{
 }
 
 
-#navInfo .navInfo, #navCuisine .navCuisine, #navEntertain .navEntertain{
+#navInfo .navInfo, #navCuisine .navCuisine, #navEntertain .navEntertain, #navComments .navComments{
 	background-color:#8D7C6F;
 	font-weight:bold;
 }
