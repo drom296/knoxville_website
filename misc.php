@@ -61,9 +61,7 @@
 				for the obvious side effects that would come from eating at a 
 				Buffet daily, this would have been lunch and dinner everyday.
 			</p>
-			
-			<!--Use this to make parent div fit the height of the floated img-->
-			<div class="noFloat">&nbsp;</div>
+
 		</div>
 		
 		<div id="foodShoney" class="item noFloat">
