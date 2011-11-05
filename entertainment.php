@@ -52,7 +52,7 @@
 		</div>
 		
 		<div id="funGatlinburg" class="bubble noFloat" onclick="location.href='day_fun.php#funGatlinburg'">
-			<img class="bubblePic" src="images/gatlinburg_night_small" alt="Gatlinburg" />
+			<img class="bubblePic" src="images/gatlinburg_night_small.jpg" alt="Gatlinburg" />
 			
 			<h2 class="bubbleHeader">Gatlinburg</h2>
 			<p class ="bubbleInfo">
