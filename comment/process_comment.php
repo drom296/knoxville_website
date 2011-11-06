@@ -1,11 +1,14 @@
 <?php
 				
-	//hook up to my db
-	// $dbLink=mysql_connect("localhost","pjm8632","PC2perri")
-		// or die("couldn't connect: ".mysql_error());
-		
-	$dbLink=mysql_connect("localhost","root","")
-		or die("couldn't connect: ".mysql_error());
+	//hook up to my db on Nova
+	// prepend @ to suppress warnings
+	$dbLink=@mysql_connect("localhost","pjm8632","PC2perri");
+	
+	// May have failed because we are running locally
+	if (!$dbLink){
+		$dbLink=@mysql_connect("localhost","root","")
+			or die("couldn't connect: ".mysql_error());
+	}
 		
 	// select database
 	mysql_select_db("pjm8632");
