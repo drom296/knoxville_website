@@ -22,7 +22,7 @@ function validateCommentForm(){
 	
 	if (result){
 		// validate the comment
-		result = validateComment(uForm.comment, true);
+		result = validateComment(cForm.comment, true);
 	}
 	
 	return result;
@@ -41,8 +41,10 @@ function validateComment(elem, lalert){
 	// check if empy
 	result = isNotEmpty(elem, emptyCommentError, lalert);
 	
-	// check if comment is past the length
-	result = validateCommentLength();
+	if (result){
+		// check if comment is past the length
+		result = validateCommentLength();
+	}
 	
 	return result;
 }
