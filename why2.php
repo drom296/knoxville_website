@@ -63,9 +63,10 @@
 			
 		</div>
 		
-		<div id="whyNav" style="width:10em;">
-			<a class="localNav" href="why3.php">Next</a>
-			<a class="localNav" href="why1.php">Previous</a>
+		<div id="pageNav">
+			<a href='why1.php'>Before Going to Kn</a>
+			| 
+			<a href='why3.php'>Knox Retrospective</a>
 		</div>
 		
 	</div>

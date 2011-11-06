@@ -83,8 +83,10 @@
 			</div>
 		</div>
 		
-		<div id="whyNav" style="width:5em;">
-			<a class="localNav" href="why2.php">Next</a>
+		<div id="pageNav">
+			<a href='knoxville.php'>Knox History</a> 
+			| 
+			<a href='why2.php'>While in Knox</a>
 		</div>
 		
 	</div>
