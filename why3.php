@@ -3,11 +3,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>Welcome to Knoxville</title>
-	<link type="text/css" rel="stylesheet" href="css/nav.css" />
-	<link type="text/css" rel="stylesheet" href="css/knox_nav.css" />
-	<link type="text/css" rel="stylesheet" href="css/knox.css" />
-	<link type="text/css" rel="stylesheet" href="css/knox_color.css" />
-	<link type="text/css" rel="stylesheet" href="css/knox_color.css" />
+	<?php include_once('page_parts/css_links.php'); ?>
 	<link type="text/css" rel="stylesheet" href="css/why.css" />
 </head>
 <body id="navInfo">
@@ -60,14 +56,16 @@
 			bad experiences, that will influence the rest of my life, but I’m 
 			glad I took the chance and went South for one of my co-ops.
 			</p>
+			
+			<div id="pageNav">
+				<a href='why2.php'>While in Knox</a>
+				| 
+				<a href='cuisine.php'>Knox Cuisine</a>
+			</div>
+
 			</div>
 		</div>
-		
-		<div id="pageNav">
-			<a href='why2.php'>While in Knox</a>
-			| 
-			<a href='cuisine.php'>Knox Cuisine</a>
-		</div>
+
 		
 	</div>
 	

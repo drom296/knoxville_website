@@ -3,11 +3,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>Welcome to Knoxville</title>
-	<link type="text/css" rel="stylesheet" href="css/nav.css" />
-	<link type="text/css" rel="stylesheet" href="css/knox_nav.css" />
-	<link type="text/css" rel="stylesheet" href="css/knox.css" />
-	<link type="text/css" rel="stylesheet" href="css/knox_color.css" />
-	<link type="text/css" rel="stylesheet" href="css/knox_color.css" />
+	<?php include_once('page_parts/css_links.php'); ?>
 	<link type="text/css" rel="stylesheet" href="css/why.css" />
 </head>
 <body  id="navInfo">
@@ -58,15 +54,14 @@
 				Not to mention the fantastic weather of the south. It was a one 
 				of those experiences that shapes your future.
 			</p>
+			
+			<div id="pageNav">
+				<a href='why1.php'>Before Going to Kn</a>
+				| 
+				<a href='why3.php'>Knox Retrospective</a>
 			</div>
-			
-			
-		</div>
-		
-		<div id="pageNav">
-			<a href='why1.php'>Before Going to Kn</a>
-			| 
-			<a href='why3.php'>Knox Retrospective</a>
+			</div>
+
 		</div>
 		
 	</div>

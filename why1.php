@@ -3,10 +3,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>Welcome to Knoxville</title>
-	<link type="text/css" rel="stylesheet" href="css/nav.css" />
-	<link type="text/css" rel="stylesheet" href="css/knox_nav.css" />
-	<link type="text/css" rel="stylesheet" href="css/knox.css" />
-	<link type="text/css" rel="stylesheet" href="css/knox_color.css" />
+	<?php include_once('page_parts/css_links.php'); ?>
 	<link type="text/css" rel="stylesheet" href="css/why.css" />
 </head>
 <body id="navInfo">
@@ -80,14 +77,18 @@
 				days later, I had received my official offer to work with Scripps 
 				Networks, and live in Knoxville for 6 months. Did I take it?
 			</p>
+			
+			<div id="pageNav">
+				<a href='knoxville.php'>Knox History</a> 
+				| 
+				<a href='why2.php'>While in Knox</a>
 			</div>
+			
+			</div>
+			
 		</div>
 		
-		<div id="pageNav">
-			<a href='knoxville.php'>Knox History</a> 
-			| 
-			<a href='why2.php'>While in Knox</a>
-		</div>
+		
 		
 	</div>
 	

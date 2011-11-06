@@ -3,10 +3,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>Welcome to Knoxville</title>
-	<link type="text/css" rel="stylesheet" href="css/nav.css" />
-	<link type="text/css" rel="stylesheet" href="css/knox_nav.css" />
-	<link type="text/css" rel="stylesheet" href="css/knox.css" />
-	<link type="text/css" rel="stylesheet" href="css/knox_color.css" />
+	<?php include_once('page_parts/css_links.php'); ?>
 	<link type="text/css" rel="stylesheet" href="css/item_info.css" />
 </head>
 <body id="navEntertain">
@@ -93,6 +90,11 @@
 		</div>
 -->
 		
+		<div id="pageNav">
+			<a href='day_fun.php'>Day Time Fun</a> 
+			| 
+			<a href='comments.php'>Comments</a>
+		</div>
 	</div>
 	
 	<?php include_once("footer2.html"); ?>
