@@ -32,9 +32,9 @@
 /** Layout **/
 
 #nav ul{
-	margin-left:35%; 
+	margin-left:auto; 
 	margin-right:auto;
-	width:20em;
+	width:21.44em;
 }
 
 #nav ul li{

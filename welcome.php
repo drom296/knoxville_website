@@ -5,7 +5,7 @@
 	<title>Welcome to Knoxville</title>
 	<?php include_once('page_parts/css_links.php'); ?>
 </head>
-<body>
+<body id="navHome">
 	
 <div id="page">
 	<?php include_once("banner2.html"); ?>
