@@ -3,10 +3,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>Welcome to Knoxville</title>
-	<link type="text/css" rel="stylesheet" href="css/nav.css" />
-	<link type="text/css" rel="stylesheet" href="css/knox_nav.css" />
-	<link type="text/css" rel="stylesheet" href="css/knox.css" />
-	<link type="text/css" rel="stylesheet" href="css/knox_color.css" />
+	<?php include_once('page_parts/css_links.php'); ?>
 	<link type="text/css" rel="stylesheet" href="css/history.css" />
 </head>
 <body id="navInfo">
@@ -60,6 +57,13 @@
 				<br /><br />
 			
 			</p>
+			
+			<div id="pageNav">
+				<a href='welcome.php'>Main Page</a> 
+				| 
+				<a href='why1.php'>Before Going to Kn</a>
+			</div>
+			
 		</div>
 	</div>
 	
