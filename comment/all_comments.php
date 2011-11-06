@@ -3,20 +3,28 @@
 		<?php 
 			
 			//hook up to my db
-			$dbLink=mysql_connect("localhost","pjm8632","PC2perri")
+			// $dbLink=mysql_connect("localhost","pjm8632","PC2perri")
+				// or die("couldn't connect: ".mysql_error());
+				
+			$dbLink=mysql_connect("localhost","root","")
 				or die("couldn't connect: ".mysql_error());
+				
+			// select database
 			mysql_select_db("pjm8632");
 			
 			$clear = array();
-			//stop sql injection for $_GET
-			foreach($_GET as $key => $val){
-				$clear[$key]=mysql_real_escape_string($val);
-			}
+			// //stop sql injection for $_GET
+			// foreach($_GET as $key => $val){
+				// $clear[$key]=mysql_real_escape_string($val);
+			// }
+// 			
+			// //stop sql injection for $_POST
+			// foreach($_POST as $key => $val){
+				// $clear[$key]=mysql_real_escape_string($val);
+			// }
 			
-			//stop sql injection for $_POST
-			foreach($_POST as $key => $val){
-				$clear[$key]=mysql_real_escape_string($val);
-			}
+			
+			$clear = $_GET;
 			
 			//include("../dbInfo.php");
 			//is_numeric() php function	
@@ -24,7 +32,7 @@
 			if(isset($clear['name'])&& isset($clear['comment'])&&
 				''&& $clear['name'] != ''&& $clear['comment'] != ''){
 				//build the query and stick it in the db
-				$query = "insert into knoxville_comments values ('','".$clear['name']."','".$clear['comment']."')";
+				$query = "insert into knoxville_comments (name, comment) values ('".$clear['name']."','".$clear['comment']."')";
 				
 				$res=mysql_query($query);
 				echo '<h2>data entered!</h2>';
@@ -62,7 +70,7 @@
 						$result.="</tr>";					
 					}//fetch
 					
-					$result .= "</table><hr/>";
+					$result .= "</table>";
 					echo $result;
 	
 				} //if res

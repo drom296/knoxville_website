@@ -7,6 +7,8 @@
 	<link type="text/css" rel="stylesheet" href="css/knox_nav.css" />
 	<link type="text/css" rel="stylesheet" href="css/knox.css" />
 	<link type="text/css" rel="stylesheet" href="css/knox_color.css" />
+	<link type="text/css" rel="stylesheet" href="css/comments.css" />
+	<script type="text/javascript" src="js/validate_comment.js"></script>
 </head>
 <body id="navComments">
 <div id="page">
@@ -16,14 +18,16 @@
 	
 	<div id="content">
 		<div id="comments">
+			<div id="singleComment">
+<!-- 			<a id="addCommentLink" href="#">Add a Comment</a> -->
+				<?php include_once("comment/single_comment.php"); ?> 
+			</div>	
+			
 			<div id="allComments">
 				<?php include("comment/all_comments.php"); ?>
 			</div>
 			
-			<div id="singleComment">
-		<!-- 		<a id="addCommentLink" href="#">Add a Comment</a> -->
-				<?php include_once("comment/single_comment.php"); ?> 
-			</div>		
+	
 		</div>	
 	</div>
 	
