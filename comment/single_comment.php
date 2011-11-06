@@ -1,4 +1,4 @@
-<h2>Enter Your Comment</h2>
+<h1>Enter Your Comment</h1>
 	<div id="enterCommentDiv">
 		<form id="enterCommentForm" name="enterComment" class="center" method="get" action="comment/process_comment.php" onsubmit="return validateCommentForm();">
 		<!-- should this send to the action by the method if there is no data?  NO!  JavaScript validation! -->

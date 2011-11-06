@@ -15,3 +15,8 @@
 #commentSubmit{
 	margin-left: 50%;
 }
+
+#allComments table{
+	margin-left: auto;
+	margin-right: auto;
+}
