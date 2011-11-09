@@ -30,8 +30,18 @@ function validateCommentForm(){
 
 // validate the user's name, and alert if desired
 function validateName(elem, lalert){
+	var result = isNotEmpty(elem, emptyNameError, lalert); 
+	
+	if (!result){
+		elem.style.backgroundColor = '#635A57';
+		elem.style.color = '#FCECD1';
+	} else{
+		elem.style.backgroundColor = '';
+		elem.style.color = '';
+	}
+	
 	//check if empty and return the result
-	return isNotEmpty(elem, emptyNameError, lalert);
+	return result;
 }
 
 // validate the user's comment, and alert if desired
@@ -44,6 +54,14 @@ function validateComment(elem, lalert){
 	if (result){
 		// check if comment is past the length
 		result = validateCommentLength();
+	}
+	
+	if (!result){
+		elem.style.backgroundColor = '#635A57';
+		elem.style.color = '#FCECD1';
+	} else{
+		elem.style.backgroundColor = '';
+		elem.style.color = '';
 	}
 	
 	return result;

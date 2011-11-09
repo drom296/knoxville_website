@@ -23,31 +23,73 @@
 			if(mysql_num_rows($res) == 0){
 				echo "no records found";
 			}else{
-				//print out as table
+				//print out comment
 				if($res){
 					$firstRow = true;
-					$result='<table border="1"><tr>';
+					// $result='<div>';
+					
+					$result = "";
 					
 					while($row=mysql_fetch_assoc($res)){
-						if ($firstRow) {
-							//give the table a table header...
-							foreach($row as $index => $val){
-								$result .= "<th>".$index."</th>";
-							}
-							$result.="</tr>";
-							$firstRow = false;
-						}//first row
-					
-						$result.="<tr>";
-						foreach($row as $index => $val){
-							$result .='<td style="padding:10px">'.$val.'</td>';
-						}
-						$result.="</tr>";					
+							// first row: field names
+							// do nothing
+							if ($firstRow) {
+								$firstRow = false;
+								continue;
+							}//first row
+						
+						$result .="<div class='allCommentsSingleDiv noFloat'>";
+							$result .= "<div class='allCommentsUser'>";
+								$result .= "<p>".$row['name']."</p>";
+								$result .= "<p>".$row['date']."</p>";
+								$result .= "<div class='noFloat'></div>";
+							$result .= "</div>";
+
+							$result .= "<div class='allCommentsSingleComment'>";
+								$result .= "<p class>".$row['comment']."</p>";
+							$result .= "</div>";
+							
+							// this is done so the height of the divs would take 
+							// into account the height of the inner floating divs
+							$result .= "<div class='noFloat'></div>";
+						
+							// $result .= "<br />";
+							// $result .= "<br />";								
+						$result .= "</div>";
+						// $result .= "<br />";
 					}//fetch
 					
-					$result .= "</table>";
+					// $result .= "</div>";
 					echo $result;
 	
+	
+	
+	
+				// //print out as table
+				// if($res){
+					// $firstRow = true;
+					// $result='<table border="1"><tr>';
+// 					
+					// while($row=mysql_fetch_assoc($res)){
+						// if ($firstRow) {
+							// //give the table a table header...
+							// foreach($row as $index => $val){
+								// $result .= "<th>".$index."</th>";
+							// }
+							// $result.="</tr>";
+							// $firstRow = false;
+						// }//first row
+// 					
+						// $result.="<tr>";
+						// foreach($row as $index => $val){
+							// $result .='<td style="padding:10px">'.$val.'</td>';
+						// }
+						// $result.="</tr>";					
+					// }//fetch
+// 					
+					// $result .= "</table>";
+					// echo $result;
+// 	
 				} //if res
 			}//if records found
 		?>
