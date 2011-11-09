@@ -80,7 +80,7 @@
 			<div class="noFloat"> </div>
 		</div>
 		
-		<div class="noFloat"><br /></div>
+<!-- 		<div class="noFloat"><br /></div> -->
 		
 		<div id="pageNav">
 			<a href='cuisine.php'>Cuisine</a> 

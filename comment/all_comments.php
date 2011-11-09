@@ -46,7 +46,7 @@
 							$result .= "</div>";
 
 							$result .= "<div class='allCommentsSingleComment'>";
-								$result .= "<p class>".$row['comment']."</p>";
+								$result .= "<p>".$row['comment']."</p>";
 							$result .= "</div>";
 							
 							// this is done so the height of the divs would take 
