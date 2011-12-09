@@ -9,6 +9,7 @@
 	<link type="text/css" rel="stylesheet" href="css/knox_color.css" />
 	<link type="text/css" rel="stylesheet" href="css/comments.css" />
 	<script type="text/javascript" src="js/validate_comment.js"></script>
+	<script type="text/javascript" src="js/comments.js"></script>
 </head>
 <body id="navComments">
 <div id="page">
